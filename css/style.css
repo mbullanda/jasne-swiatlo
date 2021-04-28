@@ -1,7 +1,7 @@
 body
 {
     background-color: #2d4242;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 16px;
 }
 
@@ -10,11 +10,15 @@ body
     background-color: #283636 !important;
 }
 
-#mainSection
+.test
 {
-    font-size: 14px;
-    color: azure;
-    text-align: justify;
+    opacity: 60%;
+}
+
+.test:hover
+{
+    opacity: 100%;
+    cursor: pointer;
 }
 
 .submenu:hover
@@ -24,35 +28,9 @@ body
     cursor: pointer;
 }
 
-.social-link
+.text-section
 {
-    color: azure;
-}
-
-.social-link:hover
-{
-    border-radius: 10px;
-    background-color: #2c3e3e;
-    cursor: pointer;
-
-}
-
-.sticky
-{
-    width: 100%;
-    position: fixed;
-    left: 0;
-    top: 0;
-    z-index: 100;
-}
-
-#jasne-swiatlo
-{
-    font-family: 'Monsieur La Doulaise', cursive;
-    text-align: center;
-    font-size: 72px;
-    color: azure;
-    padding-top: 80px;
+    font-size: 14px;
 }
 
 .img-min
@@ -66,18 +44,21 @@ body
     opacity: 80%;
 }
 
-.jasne-swiatlo
+.sticky
 {
-    margin-top: 50px;
-    margin-bottom: 20px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
 }
 
-.overlay
+
+.main-section
 {
-    position: relative;
-    font-family: 'Monsieur La Doulaise', cursive;
     text-align: center;
-    font-size: 72px;
+    color: azure;
+    padding-top: 50px;
 }
 
 .main-logo
@@ -90,24 +71,9 @@ body
 {
     position: absolute;
     top: 0;
-    left: 34%;
+    left: 10%;
     width: 32%;
     height: auto;
-    opacity: 0.6;
-}
-
-.logo:hover
-{
-    opacity: 1;
-    cursor: pointer;
-}
-
-.opis
-{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    margin-top: 50px;
-    margin-bottom: 50px;
 }
 
 footer
@@ -115,26 +81,6 @@ footer
     text-align: center;
     font-size: 12px;
     color: azure;
-}
-
-#o-autorce img
-{
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-.o-autorce-opis
-{
-    margin-right: 30px;
-    margin-left: 30px;
-    text-align: justify;
-}
-
-.sekcja
-{
-    padding-top: 100px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    text-align: center;
 }
 
 .more a
@@ -153,27 +99,6 @@ footer
     cursor: pointer;
 }
 
-.tresc
-{
-    margin-right: 20px;
-    margin-left: 20px;
-}
-
-.tresc
-{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    text-align: justify;
-}
-
-.oferta-tresc h4
-{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    text-align: justify;
-    margin-left: 20px;
-}
-
 .wyslij
 {
     background-color: #283636;
@@ -188,7 +113,7 @@ footer
 }
 
 @media (max-width: 575px) {
-    #o-autorce img
+    .author-photo
     {
         margin-left: auto;
         margin-right: auto;
