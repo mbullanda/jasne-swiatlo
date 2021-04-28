@@ -5,6 +5,11 @@ body
     font-size: 16px;
 }
 
+a:link
+{
+    text-decoration: none;
+}
+
 .bg-navbar
 {
     background-color: #283636 !important;
@@ -38,10 +43,38 @@ body
     border-radius: 10px;
 }
 
-.img-min:hover
+.overlay-min
 {
+    position: relative;
+}
+
+.overlay-min .img-description
+{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #2d4242;
     border-radius: 10px;
-    opacity: 80%;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.overlay-min:hover .img-description
+{
+    opacity: 0.8;
+}
+
+.img-description p
+{
+    position: relative;
+    top: 40%;
+    font-size: 20px;
+    font-weight: bold;
+    color: azure;
+    opacity: 1;
 }
 
 .sticky
@@ -57,7 +90,8 @@ body
 {
     text-align: center;
     color: azure;
-    padding-top: 50px;
+    padding-bottom: 25px;
+    padding-top: 25px;
 }
 
 .main-logo
@@ -86,14 +120,12 @@ footer
 {
     background-color: #283636;
     color: azure;
-    text-decoration: none;
 }
 
 .see-more a:hover
 {
     background-color: #283636;
     color: azure;
-    text-decoration: none;
     opacity: 0.6;
     cursor: pointer;
 }
