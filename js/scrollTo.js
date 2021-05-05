@@ -6,27 +6,27 @@ $('#start').click(function() {
 );
 
 $('#o-autorce-nav').click(function() {
-        $.scrollTo($('#o-autorce'), 1200);
+        $.scrollTo($('#o-autorce-scroll'), 1200);
     }
 );
 
 $('#historie-nav').click(function() {
-        $.scrollTo($('#historie'), 1200);
+        $.scrollTo($('#historie-scroll'), 1200);
     }
 );
 
 $('#grafiki-nav').click(function() {
-        $.scrollTo($('#grafiki'), 1200);
+        $.scrollTo($('#grafiki-scroll'), 1200);
     }
 );
 
 $('#oferta-nav').click(function() {
-        $.scrollTo($('#oferta'), 1200);
+        $.scrollTo($('#oferta-scroll'), 1200);
     }
 );
 
 $('#kontakt-nav').click(function() {
-        $.scrollTo($('#kontakt'), 1200);
+        $.scrollTo($('#kontakt-scroll'), 1200);
     }
 );
 
